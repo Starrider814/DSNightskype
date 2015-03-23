@@ -1,5 +1,4 @@
 PrefabFiles = {
-  --[[
   "chris",
   "corey",
   "lindsay",
@@ -7,13 +6,11 @@ PrefabFiles = {
   "sam",
   "sarah",
   "sean",
-  --]]
   "steve",
 }
 
 Assets = {
   -- Save Slot Portraits
-  --[[
   Asset("IMAGE", "images/saveslot_portraits/chris.tex"),
   Asset("ATLAS", "images/saveslot_portraits/chris.xml"),
   Asset("IMAGE", "images/saveslot_portraits/corey.tex"),
@@ -28,12 +25,10 @@ Assets = {
   Asset("ATLAS", "images/saveslot_portraits/sarah.xml"),
   Asset("IMAGE", "images/saveslot_portraits/sean.tex"),
   Asset("ATLAS", "images/saveslot_portraits/sean.xml"),
-  --]]
   Asset("IMAGE", "images/saveslot_portraits/steve.tex"),
   Asset("ATLAS", "images/saveslot_portraits/steve.xml"),
 
   -- Select Screen Portraits
-  --[[
   Asset("IMAGE", "images/selectscreen_portraits/chris.tex"),
   Asset("ATLAS", "images/selectscreen_portraits/chris.xml"),
   Asset("IMAGE", "images/selectscreen_portraits/chris_silho.tex"),
@@ -62,14 +57,12 @@ Assets = {
   Asset("ATLAS", "images/selectscreen_portraits/sean.xml"),
   Asset("IMAGE", "images/selectscreen_portraits/sean_silho.tex"),
   Asset("ATLAS", "images/selectscreen_portraits/sean_silho.xml"),
-  --]]
   Asset("IMAGE", "images/selectscreen_portraits/steve.tex"),
   Asset("ATLAS", "images/selectscreen_portraits/steve.xml"),
   Asset("IMAGE", "images/selectscreen_portraits/steve_silho.tex"),
   Asset("ATLAS", "images/selectscreen_portraits/steve_silho.xml"),
 
   -- Big Portraits
-  --[[
   Asset("IMAGE", "bigportraits/chris.tex"),
   Asset("ATLAS", "bigportraits/chris.xml"),
   Asset("IMAGE", "bigportraits/corey.tex"),
@@ -84,12 +77,10 @@ Assets = {
   Asset("ATLAS", "bigportraits/sarah.xml"),
   Asset("IMAGE", "bigportraits/sean.tex"),
   Asset("ATLAS", "bigportraits/sean.xml"),
-  --]]
   Asset("IMAGE", "bigportraits/steve.tex"),
   Asset("ATLAS", "bigportraits/steve.xml"),
 
   -- Map Icons
-  --[[
   Asset("IMAGE", "images/map_icons/chris.tex"),
   Asset("ATLAS", "images/map_icons/chris.xml"),
   Asset("IMAGE", "images/map_icons/corey.tex"),
@@ -104,12 +95,10 @@ Assets = {
   Asset("ATLAS", "images/map_icons/sarah.xml"),
   Asset("IMAGE", "images/map_icons/sean.tex"),
   Asset("ATLAS", "images/map_icons/sean.xml"),
-  --]]
   Asset("IMAGE", "images/map_icons/steve.tex"),
   Asset("ATLAS", "images/map_icons/steve.xml"),
 
   -- Avatars
-  --[[
   Asset("IMAGE", "images/avatars/avatar_chris.tex"),
   Asset("ATLAS", "images/avatars/avatar_chris.xml"),
   Asset("IMAGE", "images/avatars/avatar_ghost_chris.tex"),
@@ -138,7 +127,6 @@ Assets = {
   Asset("ATLAS", "images/avatars/avatar_sean.xml"),
   Asset("IMAGE", "images/avatars/avatar_ghost_sean.tex"),
   Asset("ATLAS", "images/avatars/avatar_ghost_sean.xml"),
-  --]]
   Asset("IMAGE", "images/avatars/avatar_steve.tex"),
   Asset("ATLAS", "images/avatars/avatar_steve.xml"),
   Asset("IMAGE", "images/avatars/avatar_ghost_steve.tex"),
@@ -150,7 +138,6 @@ local STRINGS = GLOBAL.STRINGS
 
 ------ CHARACTER SELECT SCREEN LINES --------
 -- Chris
---[[
 STRINGS.CHARACTER_TITLES.chris = "The Chris"
 STRINGS.CHARACTER_NAMES.chris = "Chris"
 STRINGS.CHARACTER_DESCRIPTIONS.chris = "He is a Chris"
@@ -185,7 +172,6 @@ STRINGS.CHARACTER_TITLES.sean = "The Sean"
 STRINGS.CHARACTER_NAMES.sean = "Sean"
 STRINGS.CHARACTER_DESCRIPTIONS.sean = "He is a Sean"
 STRINGS.CHARACTER_QUOTES.sean = "\"Something Witty\" - Sean"
---]]
 -- Steve
 STRINGS.CHARACTER_TITLES.steve = "The Steve"
 STRINGS.CHARACTER_NAMES.steve = "Steve"
@@ -194,7 +180,6 @@ STRINGS.CHARACTER_QUOTES.steve = "\"Something Witty\" - Steve"
 ---------------------------------------------
 
 ------ CHARACTER SPEECH STRINGS -------
---[[
 STRINGS.CHARACTERS.CHRIS = require "speech_chris"
 STRINGS.CHARACTERS.COREY = require "speech_corey"
 STRINGS.CHARACTERS.LINDSAY = require "speech_lindsay"
@@ -202,12 +187,10 @@ STRINGS.CHARACTERS.MATT = require "speech_matt"
 STRINGS.CHARACTERS.SAM = require "speech_sam"
 STRINGS.CHARACTERS.SARAH = require "speech_sarah"
 STRINGS.CHARACTERS.SEAN = require "speech_sean"
---]]
 STRINGS.CHARACTERS.STEVE = require "speech_steve"
 ---------------------------------------
 
 ------ IN GAME NAMES ------
---[[
 STRINGS.NAMES.CHRIS = "Chris"
 STRINGS.NAMES.COREY = "Corey"
 STRINGS.NAMES.LINDSAY = "Lindsay"
@@ -215,12 +198,10 @@ STRINGS.NAMES.MATT = "Matt"
 STRINGS.NAMES.SAM = "Sam"
 STRINGS.NAMES.SARAH = "Sarah"
 STRINGS.NAMES.SEAN = "Sean"
---]]
 STRINGS.NAMES.STEVE = "Steve"
 ---------------------------
 
 ------ CHARACTER RESPONSE STRINGS -------
---[[
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.CHRIS = {
   GENERIC = "It's Chris!",
   ATTACKER = "That Chris looks shifty...",
@@ -270,7 +251,6 @@ STRINGS.CHARACTERS.GENERIC.DESCRIBE.SEAN = {
   REVIVER = "Sean, friend of ghosts.",
   GHOST = "Sean could use a heart.",
 }
---]]
 STRINGS.CHARACTERS.GENERIC.DESCRIBE.STEVE = {
   GENERIC = "It's Steve!",
   ATTACKER = "That Steve looks shifty...",
@@ -281,7 +261,6 @@ STRINGS.CHARACTERS.GENERIC.DESCRIBE.STEVE = {
 -----------------------------------------
 
 -- Add minimap images
---[[
 AddMinimapAtlas("images/map_icons/chris.xml")
 AddMinimapAtlas("images/map_icons/corey.xml")
 AddMinimapAtlas("images/map_icons/lindsay.xml")
@@ -289,11 +268,9 @@ AddMinimapAtlas("images/map_icons/matt.xml")
 AddMinimapAtlas("images/map_icons/sam.xml")
 AddMinimapAtlas("images/map_icons/sarah.xml")
 AddMinimapAtlas("images/map_icons/sean.xml")
---]]
 AddMinimapAtlas("images/map_icons/steve.xml")
 
 -- Add mod characters
---[[
 AddModCharacter("chris", "MALE")
 AddModCharacter("corey", "MALE")
 AddModCharacter("lindsay", "FEMALE")
@@ -301,5 +278,4 @@ AddModCharacter("matt", "MALE")
 AddModCharacter("sam", "MALE")
 AddModCharacter("sarah", "FEMALE")
 AddModCharacter("sean", "MALE")
---]]
 AddModCharacter("steve", "MALE")

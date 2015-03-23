@@ -299,7 +299,7 @@ return {
 			NOMAGIC = "There's no magic around here.",
 		},
 
-		HOUNDSTOOTH="Sharp."
+		HOUNDSTOOTH="Sharp.",
 		ARMORSNURTLESHELL="I'm a turtle!",
 		BAT="Batman?",
 		BATBAT = "I could be Batman.",
