@@ -1,0 +1,1 @@
+This is the output folder. Everything in here is ignore except this file. This should be the only file in this folder in the repo.
