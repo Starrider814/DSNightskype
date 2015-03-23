@@ -55,7 +55,11 @@ local master_postinit = function(inst)
   -- Stats
   inst.components.health:SetMaxHealth(150)
   inst.components.hunger:SetMax(150)
+  inst.components.hunger:SetRate(TUNING.WILSON_HUNGER_RATE * 1)
   inst.components.sanity:SetMax(200)
+
+  -- Effects
+  inst.components.builder.science_bonus = 1 -- Scientist
 end
 
 return MakePlayerCharacter("sean", prefabs, assets, common_postinit, master_postinit, start_inv)

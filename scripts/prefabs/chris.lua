@@ -55,7 +55,12 @@ local master_postinit = function(inst)
   -- Stats
   inst.components.health:SetMaxHealth(150)
   inst.components.hunger:SetMax(150)
+  inst.components.hunger:SetRate(TUNING.WILSON_HUNGER_RATE * 1)
   inst.components.sanity:SetMax(200)
+
+  -- Effects
+  inst.components.locomotor.runspeed = (TUNING.WILSON_RUN_SPEED * 1.3) -- Cross country
+  -- TODO: Backpack thing
 end
 
 return MakePlayerCharacter("chris", prefabs, assets, common_postinit, master_postinit, start_inv)

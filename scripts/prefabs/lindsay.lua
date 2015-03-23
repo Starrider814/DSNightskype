@@ -45,6 +45,7 @@ local start_inv = {
 -- Initialization for host and client
 local common_postinit = function(inst)
   inst.MiniMapEntity:SetIcon("lindsay.tex")
+  inst:AddTag("bookbuilder")
 end
 
 -- Initialization for host only
@@ -53,9 +54,15 @@ local master_postinit = function(inst)
   inst.soundsname = "wendy"
 
   -- Stats
-  inst.components.health:SetMaxHealth(150)
+  inst.components.health:SetMaxHealth(120)
   inst.components.hunger:SetMax(150)
+  inst.components.hunger:SetRate(TUNING.WILSON_HUNGER_RATE * 1)
   inst.components.sanity:SetMax(200)
+
+  -- Effects
+  inst:AddComponent("reader")
+  inst.components.sanity.night_drain_mult = (TUNING.WILSON_SANITY_MULT * 4) -- Afraid of the dark
+  inst.components.sanity.neg_aura_mult = (TUNING.WILSON_SANITY_MULT * 2) -- Afraid of monsters
 end
 
 return MakePlayerCharacter("lindsay", prefabs, assets, common_postinit, master_postinit, start_inv)
