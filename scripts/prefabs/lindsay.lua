@@ -44,12 +44,18 @@ local start_inv = {
 
 -- Initialization for host and client
 local common_postinit = function(inst)
-
+  inst.MiniMapEntity:SetIcon("lindsay.tex")
 end
 
 -- Initialization for host only
 local master_postinit = function(inst)
-  -- TODO: Stat things here
+  -- Voice
+  inst.soundsname = "wendy"
+
+  -- Stats
+  inst.components.health:SetMaxHealth(150)
+  inst.components.hunger:SetMax(150)
+  inst.components.sanity:SetMax(200)
 end
 
 return MakePlayerCharacter("lindsay", prefabs, assets, common_postinit, master_postinit, start_inv)
