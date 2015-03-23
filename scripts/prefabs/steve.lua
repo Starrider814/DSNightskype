@@ -60,7 +60,6 @@ local master_postinit = function(inst)
 
   -- Effects
   inst.components.sanity.night_drain_mult = 0 -- Creature of the night
-  inst.components.sanity.neg_aura_mult = (TUNING.WILSON_SANITY_MULT * 0.5) -- Strange
 end
 
 return MakePlayerCharacter("steve", prefabs, assets, common_postinit, master_postinit, start_inv)

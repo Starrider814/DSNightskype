@@ -138,9 +138,9 @@ local STRINGS = GLOBAL.STRINGS
 
 ------ CHARACTER SELECT SCREEN LINES --------
 -- Chris
-STRINGS.CHARACTER_TITLES.chris = "The Chris"
+STRINGS.CHARACTER_TITLES.chris = "The Athlete"
 STRINGS.CHARACTER_NAMES.chris = "Chris"
-STRINGS.CHARACTER_DESCRIPTIONS.chris = "He is a Chris"
+STRINGS.CHARACTER_DESCRIPTIONS.chris = "- Runs much faster than the other characters."
 STRINGS.CHARACTER_QUOTES.chris = "\"Something Witty\" - Chris"
 -- Corey
 STRINGS.CHARACTER_TITLES.corey = "The Corey"
@@ -148,19 +148,19 @@ STRINGS.CHARACTER_NAMES.corey = "Corey"
 STRINGS.CHARACTER_DESCRIPTIONS.corey = "He is a Corey"
 STRINGS.CHARACTER_QUOTES.corey = "\"Something Witty\" - Corey"
 -- Lindsay
-STRINGS.CHARACTER_TITLES.lindsay = "The Lindsay"
+STRINGS.CHARACTER_TITLES.lindsay = "The Bookworm"
 STRINGS.CHARACTER_NAMES.lindsay = "Lindsay"
-STRINGS.CHARACTER_DESCRIPTIONS.lindsay = "She is a Lindsay"
-STRINGS.CHARACTER_QUOTES.lindsay = "\"Something Witty\" - Lindsay"
+STRINGS.CHARACTER_DESCRIPTIONS.lindsay = "- Can create and read Wickerbottom's books.\n- Loses sanity much faster at night.\n- Loses sanity a little faster in negative auras."
+STRINGS.CHARACTER_QUOTES.lindsay = "\"If it doesn't involve food or cats, I'm not interested.\""
 -- Matt
-STRINGS.CHARACTER_TITLES.matt = "The Matt"
+STRINGS.CHARACTER_TITLES.matt = "The Outdoorsman"
 STRINGS.CHARACTER_NAMES.matt = "Matt"
 STRINGS.CHARACTER_DESCRIPTIONS.matt = "He is a Matt"
 STRINGS.CHARACTER_QUOTES.matt = "\"Something Witty\" - Matt"
 -- Sam
 STRINGS.CHARACTER_TITLES.sam = "The Sam"
 STRINGS.CHARACTER_NAMES.sam = "Sam"
-STRINGS.CHARACTER_DESCRIPTIONS.sam = "He is a Sam"
+STRINGS.CHARACTER_DESCRIPTIONS.sam = "- Hits harder than other characters.\n- Has much more health than other characters."
 STRINGS.CHARACTER_QUOTES.sam = "\"Something Witty\" - Sam"
 -- Sarah
 STRINGS.CHARACTER_TITLES.sarah = "The Sarah"
@@ -168,15 +168,15 @@ STRINGS.CHARACTER_NAMES.sarah = "Sarah"
 STRINGS.CHARACTER_DESCRIPTIONS.sarah = "She is a Sarah"
 STRINGS.CHARACTER_QUOTES.sarah = "\"Something Witty\" - Sarah"
 -- Sean
-STRINGS.CHARACTER_TITLES.sean = "The Sean"
+STRINGS.CHARACTER_TITLES.sean = "The Engineer"
 STRINGS.CHARACTER_NAMES.sean = "Sean"
-STRINGS.CHARACTER_DESCRIPTIONS.sean = "He is a Sean"
+STRINGS.CHARACTER_DESCRIPTIONS.sean = "- Has a 1 level bonus to prototyping."
 STRINGS.CHARACTER_QUOTES.sean = "\"Something Witty\" - Sean"
 -- Steve
-STRINGS.CHARACTER_TITLES.steve = "The Steve"
+STRINGS.CHARACTER_TITLES.steve = "The Odd One"
 STRINGS.CHARACTER_NAMES.steve = "Steve"
-STRINGS.CHARACTER_DESCRIPTIONS.steve = "He is a Steve"
-STRINGS.CHARACTER_QUOTES.steve = "\"Something Witty\" - Steve"
+STRINGS.CHARACTER_DESCRIPTIONS.steve = "- Starts with only 70 sanity.\n- Does not lose sanity at night.\n- Garlands dont help him, and Top Hats only work as well as Garlands."
+STRINGS.CHARACTER_QUOTES.steve = "\"Hue Hue Hue\""
 ---------------------------------------------
 
 ------ CHARACTER SPEECH STRINGS -------
